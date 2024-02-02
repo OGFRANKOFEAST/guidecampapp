@@ -21,11 +21,10 @@ const Navbar = () => {
         </ul>
         <div className="lg:flexCenter hidden">
           <Button 
-             type="button"
-             title="Login"
-             icon="/user.svg"
-             variant="btn_dark_green"
-            />
+          type="button"
+          title="Login"
+          icon="/user.svg"
+          variant="btn_dark_green" full={false}            />
         </div>
         <Image 
         src="menu.svg"
